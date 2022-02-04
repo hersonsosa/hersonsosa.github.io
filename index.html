@@ -39,6 +39,7 @@
                 consectetur.
 
             </p>
+            <a href="./img/Resume Template - Herson Sosa.docx" download>Download Resume</a>
         </section>
 
         <section id="projects">
@@ -46,23 +47,23 @@
             <section id="projectlist">
                 <div class="project1">
                     <article>
-                        <h3>Virtual Pet Shelter</h3>
+                        <h3><a href="https://github.com/hisosa/testRepo">Pet Shelter</a></h3>
                         <img src="./img/PetShelter.jpg">
-                        <p>Pet shelter description yadayadayadayadayadayada</p>
+                        <p>Pet Shelter is an interactive pet game much like the Tomagochi of the late 1900's.</p>
                     </article>
                 </div>
                 <div class="project2">
                     <article>
-                        <h3>Guessing Game</h3>
+                        <h3><a href="https://github.com/hisosa/test2">Guessing Game</a></h3>
                         <img src="./img/image2.jpg">
-                        <p>guessing game description yadayadayadayadayadayada</p>
+                        <p>The Guessing game is a very simple interactive game to guess the correct number.</p>
                     </article>
                 </div>
                 <div class="project3">
                     <article>
-                        <h3>project 3</h3>
+                        <h3><a href="https://github.com/hisosa/hello-world">Hello World</a></h3>
                         <img src="./img/image3.jpg">
-                        <p>project 3 description yadayadayadayadayadayadaya</p>
+                        <p>Project 3 is a very an immersive dive into the Java games with GUI.</p>
                     </article>
                 </div>
             </section>
@@ -71,19 +72,52 @@
         <section id="skills">
             <h2>Skills</h2>
             <p>
-            <ul>
-                <li>Java 50 %</li>
-                <li>HTML 10 %</li>
-                <li>CSS 5%</li>
-                <li>JavaScript 2%</li>
-                <li> Python 47%</li>
-            </ul>
+            <p>JAVA</p>
+            <div class="container">
+                <div class="skills java">60%</div>
+            </div>
+            <p>HTML</p>
+            <div class="container">
+                <div class="skills html">10%</div>
+            </div>
+            <p>CSS</p>
+            <div class="container">
+                <div class="skills css">5%</div>
+            </div>
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills js">2%</div>
+            </div>
+            <p>Python</p>
+            <div class="container">
+                <div class="skills python">65%</div>
+            </div>
             </p>
         </section>
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Feel free to contact me at any time at the following:
+            <h2>Contact Me</h2>
+            <p>
             </p>
+            <div id="after_submit"></div>
+            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                <div class="row">
+                    <label class="required" for="name">Your name:</label><br />
+                    <input id="name" class="input" name="name" type="text" value="" size="60" /><br />
+                    <span id="name_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                    <label class="required" for="email">Your email:</label><br />
+                    <input id="email" class="input" name="email" type="text" value="" size="60" /><br />
+                    <span id="email_validation" class="error_message"></span>
+                </div>
+                <div class="row">
+                    <label class="required" for="message">Your message:</label><br />
+                    <textarea id="message" class="input" name="message" rows="7" cols="62"></textarea><br />
+                    <span id="message_validation" class="error_message"></span>
+                </div>
+
+                <input id="submit_button" type="submit" value="Send email" />
+            </form>
         </section>
     </main>
     <nav class="navigationbar">
