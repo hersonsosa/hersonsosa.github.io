@@ -39,7 +39,8 @@
                 consectetur.
 
             </p>
-            <a href="./img/Resume PDF - Herson Sosa.pdf" download>Download Resume</a>
+            <a href="./img/Resume PDF - Herson Sosa.pdf" target="_blank">Download Resume</a>
+            <a href="img/796835.jpg" target="_blank">look at this</a>
         </section>
 
         <section id="projects">
@@ -47,21 +48,21 @@
             <section id="projectlist">
                 <div class="project1">
                     <article>
-                        <h3><a href="https://github.com/hisosa/testRepo">Pet Shelter</a></h3>
+                        <h3><a href="https://github.com/hisosa/testRepo" target="_blank">Pet Shelter</a></h3>
                         <img src="./img/PetShelter.jpg">
                         <p>Pet Shelter is an interactive pet game much like the Tomagochi of the late 1900's.</p>
                     </article>
                 </div>
                 <div class="project2">
                     <article>
-                        <h3><a href="https://github.com/hisosa/test2">Guessing Game</a></h3>
+                        <h3><a href="https://github.com/hisosa/test2" target="_blank">Guessing Game</a></h3>
                         <img src="./img/image2.jpg">
                         <p>The Guessing game is a very simple interactive game to guess the correct number.</p>
                     </article>
                 </div>
                 <div class="project3">
                     <article>
-                        <h3><a href="https://github.com/hisosa/hello-world">Hello World</a></h3>
+                        <h3><a href="https://github.com/hisosa/hello-world" target="_blank">Hello World</a></h3>
                         <img src="./img/image3.jpg">
                         <p>Project 3 is a very an immersive dive into the Java games with GUI.</p>
                     </article>
@@ -98,26 +99,21 @@
             <h2>Contact Me</h2>
             <p>
             </p>
-            <div id="after_submit"></div>
-            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-                <div class="row">
-                    <label class="required" for="name">Your name:</label><br />
-                    <input id="name" class="input" name="name" type="text" value="" size="60" /><br />
-                    <span id="name_validation" class="error_message"></span>
-                </div>
-                <div class="row">
-                    <label class="required" for="email">Your email:</label><br />
-                    <input id="email" class="input" name="email" type="text" value="" size="60" /><br />
-                    <span id="email_validation" class="error_message"></span>
-                </div>
-                <div class="row">
-                    <label class="required" for="message">Your message:</label><br />
-                    <textarea id="message" class="input" name="message" rows="7" cols="62"></textarea><br />
-                    <span id="message_validation" class="error_message"></span>
-                </div>
-
-                <input id="submit_button" type="submit" value="Send email" />
-            </form>
+            <div class="container">
+                <form action="mailto:hersonsosa1@gmail.com" method="post" enctype="text/plain">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="country">Comapny</label>
+                    <input type="text" id="company" name="company" placeholder="Your Company..">
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
         </section>
     </main>
     <nav class="navigationbar">
