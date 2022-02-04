@@ -14,7 +14,7 @@
     <div class="banner">
         <h1 class="banner-head">
             <!-- <img src="./img/coding.jpg"> -->
-            "Be proud of who you are, and what you have accomplished but,<br> do not ever be satisfied. There is always
+            "Be proud of who you are and what you have accomplished but,<br> do not ever be satisfied. There is always
             room for improvement."
         </h1>
     </div>
@@ -100,21 +100,31 @@
             <p>
             </p>
             <div class="container">
-                <form action="mailto:hersonsosa1@gmail.com" method="post" enctype="text/plain">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your first name..">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    <label for="country">Comapny</label>
-                    <input type="text" id="company" name="company" placeholder="Your Company..">
-                    <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.."
-                        style="height:200px"></textarea>
-                    <input type="submit" value="Send">
-                    <input type="reset" value="Reset">
+                <form action="https://formspree.io/f/xdobewwl" method="POST">
+                <div class="form-group">
+                    <label for="firstName"> First Name</label>
+                    <input type="text" id="firstName" name="firstName">
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="latsName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName">
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                  </div>
+            
+                  <div class="form-group">
+                    <label for="massage">Massage</label>
+                    <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                  </div>
+            
+                  <button type="submit">Submit</button>
                 </form>
-            </div>
-        </section>
+              </div>
+            </section>
     </main>
     <nav class="navigationbar">
         <div class="max-width">
