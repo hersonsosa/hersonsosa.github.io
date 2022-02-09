@@ -26,7 +26,10 @@ html{
     font-size: 30px;
     text-shadow: 0.07em 0 black,0 0.07em black,-0.07em 0 black, 0 -0.07em black;
 }
-
+.icon{
+    height: 40px;
+    width: auto;
+}
 header,
 main,
 footer {
@@ -49,10 +52,6 @@ header span{
     margin: 1.5em;
     color: #999;
     
-}
-.icon{
-    height: 40px;
-    width: auto;
 }
 .span{
     margin: auto;
