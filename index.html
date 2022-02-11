@@ -3,142 +3,141 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Herson Sosa</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="/css/styles.css">
+
+    <!-- custom fonts -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <a name="top"></a>
-    <div class="banner">
-        <h1 class="banner-head">
-            "Be proud of who you are and what you have accomplished but,<br> do not ever be satisfied. There is always
-            room for improvement."
-        </h1>
-    </div>
-
-    <header>
-        <h1>Hello, <br> I am Herson Sosa.</h1>
-        <span>
-        <a href="./img/Resume PDF - Herson Sosa.pdf" target="_blank"><img src="./img/cv lrge.jpg" class="icon"></a>
-        <a href="https://www.linkedin.com/in/hersonsosa1/" target="_blank"><img src="./img/new-linkedin-logo-white-black-png-800x800.png" class="icon"></a>
-        <a href="https://github.com/hersonsosa" target="_blank"><img src="./img/github-icon-for-resume-12.jpg" class="icon"></a>  
-        </span>    
+    <header class="header-nav">
+        <div class="logo">
+            <img src="./img/logo.jpg" alt="">
+        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#top" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">What I do</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                <li class="nav__item"><a href="#contact me" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>About</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Dui sapien eget mi proin sed. Tincidunt eget nullam non nisi. Velit dignissim
-                sodales ut eu sem integer.
-            </p>
-            <p>Nibh cras pulvinar mattis nunc sed blandit libero volutpat. Vel risus commodo viverra maecenas accumsan
-                lacus. Diam vel quam elementum pulvinar etiam.
-            </p>
-            <p>Faucibus turpis in eu mi bibendum. Porttitor massa id neque aliquam. Donec pretium vulputate sapien nec
-                sagittis aliquam. Lorem ipsum dolor sit amet consectetur adipiscing. Est lorem ipsum dolor sit amet
-                consectetur.
+    <!-- Introduction -->
 
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Herson Sosa</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">full-stack software developer(student)</p>
+        <img src="./img/smiling gold.jpg" alt="picture of me smiling :D" class="intro__img">
+    </section>
+
+    <!-- About Me -->
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Software developer | Marine Corps Veteran | Musician</p>
+
+        <div class="about me-body">
+            <p>Growing up in Northern Virginia allowed for an extremely diverse childhood made up of some amazing experiences. I was lucky enough to have big military contract companies such as Lockheed Martin and Northrop Grumman come to my Middle School
+                and High School to teach me robotics and engineering. This sparked an idea that I would pursue for the next many years.</p>
+            <p>In my spare time, I have always escaped to music. I grew up in a religious household and was quickly introduced to all sorts of instruments. I became an expert driven by the idea that "practice makes perfect". I even got to play Elvis's piano.
+                It was this same idea that pushed me to become a US Marine.
             </p>
-            <!-- <a href="./img/Resume PDF - Herson Sosa.pdf" target="_blank">Download Resume</a> -->
-        </section>
-
-        <section id="projects">
-            <h2>Projects</h2>
-            <section id="projectlist">
-                <div class="project1">
-                    <article>
-                        <h3><a href="https://github.com/hisosa/testRepo" target="_blank">Pet Shelter</a></h3>
-                        <img src="./img/PetShelter.jpg">
-                        <p>Pet Shelter is an interactive pet game much like the Tomagochi of the late 1900's.</p>
-                    </article>
-                </div>
-                <div class="project2">
-                    <article>
-                        <h3><a href="https://github.com/hisosa/test2" target="_blank">Guessing Game</a></h3>
-                        <img src="./img/image2.jpg">
-                        <p>The Guessing game is a very simple interactive game to guess the correct number.</p>
-                    </article>
-                </div>
-                <div class="project3">
-                    <article>
-                        <h3><a href="https://github.com/hisosa/hello-world" target="_blank">Hello World</a></h3>
-                        <img src="./img/image3.jpg">
-                        <p>Project 3 is a very an immersive dive into the Java games with GUI.</p>
-                    </article>
-                </div>
-            </section>
-        </section>
-
-        <section id="skills">
-            <h2>Skills</h2>
-            <p>
-            <p>JAVA</p>
-            <div class="container">
-                <div class="skills java">60%</div>
-            </div>
-            <p>HTML</p>
-            <div class="container">
-                <div class="skills html">10%</div>
-            </div>
-            <p>CSS</p>
-            <div class="container">
-                <div class="skills css">5%</div>
-            </div>
-            <p>JavaScript</p>
-            <div class="container">
-                <div class="skills js">2%</div>
-            </div>
-            <p>Python</p>
-            <div class="container">
-                <div class="skills python">65%</div>
-            </div>
-            </p>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <div class="container">
-                <form action="https://formspree.io/f/xdobewwl" method="POST">
-
-                    <div class="form-group">
-                        <label for="firstName"> First Name</label>
-                        <input type="text" id="firstName" name="firstName">
-                    </div>
-            
-                    <div class="form-group">
-                        <label for="lastName">Last Name</label>
-                        <input type="text" id="lastName" name="lastName">
-                    </div>
-            
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="text" id="email" name="email">
-                    </div>
-            
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                    </div>
-            
-                  <button type="submit">Submit</button>
-                </form>
-              </div>
-            </section>
-    </main>
-    <nav class="navigationbar">
-        <div class="max-width">
+            <p>"The few, the proud." I was very proud to detonate ordnance, to fly drones and to run many, many miles. And after many travels around the world and once-in-a-lifetime experiences, my contract in the military came to an end. Suddenly, I'm in
+                Ohio, where I continued with my goal to become involved in future technology. Unbeknownst to me, programming was something I had already experienced.</p>
+            <p>With the inclusion of HTML back in the days of MySpace, office sites such as SharePoint, programming and development were something I was already involved in. This led to self-learning, using any means available. Just when I thought my resources
+                were exhausted I found WCCI. With their training and guidance, I hope to be a successful Web Developer.</p>
         </div>
-        <ul class="menu">
-            <a href="#top" class="menu-btn">Home</a>
-            <a href="#about" class="menu-btn">About</a>
-            <a href="#projects" class="menu-btn">Projects</a>
-            <a href="#skills" class="menu-btn">Skills</a>
-            <a href="#contact" class="menu-btn">Contact</a>
+
+        <img src="./img/youth.jpg" alt="young man" class="about-me__img">
+    </section>
+
+    <!-- My skills -->
+
+    <section class="my-skills" id="skills">
+        <h2 class="section__title section__title--skills">What I do</h2>
+        <p class="wcci-title">As a current student at WeCanCodeIt, I have been taught the necessary skills and the methods of application for my projects and future as a developer. Here are some examples of what I have learned so far. Please visit their site for more information.</p>
+        <h3>
+            <a href="https://wecancodeit.org/" target="_blank"><img src="./img/wcci logo.png" class="wcci"></a>
+        </h3>
+        <div class="skills">
+            <div class="skill">
+                <h3>Java</h3>
+                <p>Java is an object-oriented programming language that produces software for multiple platforms. When a programmer writes a Java application, the compiled code runs on most operating systems, including Windows, Linux and Mac OS. Java is
+                    an object-oriented language, which means all programs are made of entities representing concepts or physical things known as “objects”.</p>
+            </div>
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. HTML consists
+                    of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way.</p>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <p>Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's
+                    HTML. CSS helps Web developers create a uniform look across several pages of a Web site. CSS makes it easy to change styles across several pages at once.
+                </p>
+            </div>
+        </div>
+        <!-- <a href="#work" class="btn">My Work</a> -->
+    </section>
+
+    <!-- Skills Chart -->
+
+    <section id="skill chart">
+        <div class="skill chart" id="skill chart">
+
+        </div>
+    </section>
+
+    <!-- My Work -->
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">Projects that I have completed*</p>
+
+        <div class="projects">
+            <!-- project 1 -->
+            <a href="https://github.com/2022-Spring-Cohort/virtual-pet-hisosa" class="project__item">
+                <img src="./img/project 1.jpg" alt="" class="project__img">
+            </a>
+
+            <!-- project 2 -->
+            <a href="#" class="project__item">
+                <img src="./img/project 2.png" alt="" class="project__img">
+            </a>
+
+            <!-- project 3 -->
+            <a href="#" class="project__item">
+                <img src="./img/project 3.jpg" alt="" class="project__img">
+            </a>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="footer" id="contact me">
+        <p>Please feel free to contact me at any time. Thank You.</p>
+        <a href="mailto:hersonsosa1@gmail.com" class="footer__link">hersonsosa1@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="./img/Resume PDF - Herson Sosa.pdf" target="_blank"><img src="./img/resume dl.png" class="icon"></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/hersonsosa1/" target="_blank"><img src="./img/linkedin icon.png" class="icon"></a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/hersonsosa" target="_blank"><img src="./img/github icon.png" class="icon"></a>
+            </li>
         </ul>
-        </div>
-    </nav>
+    </footer>
 </body>
 
 </html>
