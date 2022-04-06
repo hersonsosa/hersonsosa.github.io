@@ -337,7 +337,7 @@ h3 {
 .project__item {
     background: var(--color-accent);
     overflow: hidden;
-}
+}   
 
 .project__img {
     height: 400px;
